@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Passenger</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <div class="logo">AIR Insta✈</div>
+
+            <div id="navigation">
+
+                <a href="home.html"><button class="btn">Home</button></a>
+                <button class="btn">Flights</button>
+                <a href="login.html" ><button class="btn">Login</button></a>
+
+            </div>
+        </div>
+        <div id="container">
+            <h3 id="passenger">Add Passenger Details</h3>
+            <form action="add.php" method="post">
+
+                 <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter Name" required> 
+                   <legend>Gender</legend>  
+                  <label for="male" id="m" >Male</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="female" id="f">Female</label>
+                <input type="radio" name="gender" id="female" value="female"> <br> 
+
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" name="dob" id="dob" required> <br>
+
+                <label for="passport">Passport Number</label><br>
+                <input type="text" name="passport" id="passport" placeholder="Enter Passport Number" required><br>
+
+                <label for="nationality">Nationality</label><br>
+                <input type="text" name="nationality" id="nationality" placeholder="Enter Nationality" required><br>
+
+                <input type="submit" name="save" value="save"> 
+                  
+
+            </form>
+        </div>
+        
+
+    </div>
+</body>
+</html>

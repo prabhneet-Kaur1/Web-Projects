@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+    font-family: "Skyscanner Relative",-apple-system,BlinkMacSystemFont,"Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+       
+}
+
+
+#head{
+    margin: 10px 15px;
+    display: flex; }
+
+#navigation{
+    margin-left: 550px;
+    margin-top: 15px;
+    display: flex;
+    gap:20px; }
+    
+.btn{
+  height:25px;
+  width:80px;
+  padding: 5px 20px;
+  background-color: #e0e3e5;
+  font-size: 12px;
+  border:none;
+  border-radius: 5px; }
+
+  .btn:hover{
+  background-color: #b4b5b7;
+  cursor:pointer; }
+
+
+.logo{
+    color:#0062e3;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique; }
+
+
+#container{
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform: translate(-50% ,-50%);
+    color:white;
+    background-color: #0062e3;
+    height:450px;
+    width:500px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 80px;
+    justify-content: center;
+}
+  
+#passenger{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+  font-size: 15px;      
+}
+
+input[type="text"]{
+    font-size: 10px;
+    font-style: oblique;
+    text-align: center;
+    width:340px;  
+    height: 25px;
+    margin-top:2px;
+    margin-bottom: 10px;
+}
+input[type="radio"]{
+    margin-top:5px;
+    
+    margin-right:20px;
+    margin-bottom:10px;
+
+}
+ #m , #f {
+    font-size: 14px;
+    margin-bottom:5px;
+    
+}
+
+input[type="date"]{
+    margin-top:2px;
+    font-size: 10px;
+    text-align: center;
+    width:340px;  
+    margin-top:5px;
+    margin-bottom: 10px;
+    height: 25px;
+
+}
+
+input[type="submit"]{
+    text-align: center;
+    width:340px;
+    height:30px;
+    background-color: #b4b5b7;
+    color:white;
+    border:none;
+    border-radius: 5px;  
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+ 
